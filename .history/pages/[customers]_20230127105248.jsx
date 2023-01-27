@@ -1,0 +1,23 @@
+import React from 'react'
+import {BsPersonFill, BsThreeDotsVertical} from 'react-icons/bs'
+import {data} from '../data/Data'
+export default function Customers() {
+  return (
+    <div className='bg-gray-100 min-h-screen'>
+        <div className='flex justify-between p-4'>
+          <h2>Customers</h2>
+          <h2>Welcome Back, Tomi</h2>
+        </div>
+        <div className='w-full m-auto p-4 border rounded-lg
+         bg-white overflow-y-auto'>
+          <div className='my-3 p-2 md:grid-cols-4 grid sm:grid-cols-3 grid-cold'>
+            <span>Name</span>
+            <span>Email</span>
+            <span>Last Order</span>
+            <span>Method</span>
+            
+          </div>
+        </div>
+    </div>
+  )
+}
